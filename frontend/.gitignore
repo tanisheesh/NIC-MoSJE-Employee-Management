@@ -1,0 +1,663 @@
+# Frontend specific gitignore
+
+# Environment files - CRITICAL: Never commit these
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Next.js build outputs
+.next/
+out/
+build/
+dist/
+
+# TypeScript build info
+*.tsbuildinfo
+next-env.d.ts
+
+# Dependency directories
+node_modules/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+*.lcov
+
+# nyc test coverage
+.nyc_output
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Microbundle cache
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# parcel-bundler cache (https://parceljs.org/)
+.cache
+.parcel-cache
+
+# Storybook build outputs
+.out
+.storybook-out
+storybook-static/
+
+# Temporary folders
+tmp/
+temp/
+.tmp/
+
+# Editor directories and files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Security and sensitive files
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+secrets/
+private/
+
+# API keys and configuration files with sensitive data
+config/secrets.js
+config/production.js
+api-keys.json
+tokens.json
+
+# Service worker cache
+sw.js
+workbox-*.js
+
+# PWA files
+manifest.json.backup
+
+# Webpack bundle analyzer
+bundle-analyzer-report.html
+
+# Lighthouse reports
+lighthouse-report.html
+lighthouse-report.json
+
+# Performance profiling
+*.prof
+profile-*.json
+
+# Test outputs
+test-results/
+e2e-results/
+cypress/videos/
+cypress/screenshots/
+playwright-report/
+test-results/
+
+# Backup files
+*.bak
+*.backup
+*.old
+
+# Archive files
+*.zip
+*.tar.gz
+*.rar
+
+# IDE specific files
+*.sublime-project
+*.sublime-workspace
+
+# Sass cache
+.sass-cache/
+
+# PostCSS cache
+.postcss-cache/
+
+# Tailwind CSS build files
+tailwind.config.js.backup
+
+# CSS source maps (if not needed in production)
+*.css.map
+
+# JavaScript source maps (if not needed in production)
+*.js.map
+
+# TypeScript source maps (if not needed in production)
+*.ts.map
+
+# Sentry files
+.sentryclirc
+
+# Vercel deployment files
+.vercel
+
+# Netlify deployment files
+.netlify
+
+# Firebase deployment files
+.firebase/
+firebase-debug.log
+firebase-debug.*.log
+
+# AWS Amplify files
+amplify/
+.amplifyrc
+
+# Serverless directories
+.serverless/
+
+# FuseBox cache
+.fusebox/
+
+# DynamoDB Local files
+.dynamodb/
+
+# TernJS port file
+.tern-port
+
+# Stores VSCode versions used for testing VSCode extensions
+.vscode-test
+
+# Yarn v2
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.*
+
+# Rush files
+common/temp/
+
+# Nx files
+.nx/cache
+
+# Turbo files
+.turbo
+
+# Vite cache
+.vite/
+
+# Rollup cache
+.rollup.cache/
+
+# SWC cache
+.swc/
+
+# Babel cache
+.babel-cache/
+
+# ESLint cache
+.eslintcache
+
+# Prettier cache
+.prettiercache
+
+# Stylelint cache
+.stylelintcache
+
+# Jest cache
+.jest/
+
+# Cypress cache
+.cypress/
+
+# Playwright cache
+.playwright/
+
+# WebDriver cache
+.webdriver/
+
+# Selenium cache
+.selenium/
+
+# Chrome extension files (if building extensions)
+*.crx
+*.pem
+
+# Firefox extension files
+*.xpi
+
+# Safari extension files
+*.safariextz
+
+# Edge extension files
+*.appx
+
+# Mobile app build files
+android/
+ios/
+platforms/
+plugins/
+www/
+
+# Cordova/PhoneGap files
+hooks/
+platforms/
+plugins/
+www/
+
+# React Native files
+.expo/
+.expo-shared/
+
+# Flutter files
+.flutter-plugins
+.flutter-plugins-dependencies
+
+# Ionic files
+.ionic/
+
+# Capacitor files
+.capacitor/
+
+# NativeScript files
+.tns/
+
+# Xamarin files
+bin/
+obj/
+
+# Unity files
+Library/
+Temp/
+Logs/
+
+# Unreal Engine files
+Binaries/
+Intermediate/
+Saved/
+
+# Godot files
+.import/
+export.cfg
+export_presets.cfg
+
+# Blender files
+*.blend1
+*.blend2
+
+# 3D model files (if large)
+*.fbx
+*.obj
+*.3ds
+*.max
+
+# Audio files (if large)
+*.wav
+*.aiff
+*.flac
+
+# Video files (if large)
+*.mp4
+*.avi
+*.mov
+*.wmv
+
+# Image files (if large or temporary)
+*.psd
+*.ai
+*.sketch
+
+# Font files (if not needed)
+*.ttf
+*.otf
+*.woff
+*.woff2
+*.eot
+
+# Documentation build files
+docs/_build/
+docs/dist/
+
+# API documentation
+api-docs/
+
+# Design system documentation
+design-system-docs/
+
+# Component library documentation
+component-docs/
+
+# Accessibility reports
+a11y-report.html
+a11y-report.json
+
+# Performance reports
+performance-report.html
+performance-report.json
+
+# Bundle analysis reports
+bundle-report.html
+bundle-report.json
+
+# Security scan reports
+security-scan-report.html
+security-scan-report.json
+
+# Dependency audit reports
+dependency-audit-report.html
+dependency-audit-report.json
+
+# License compliance reports
+license-report.html
+license-report.json
+
+# Code quality reports
+code-quality-report.html
+code-quality-report.json
+
+# Metrics and analytics files
+metrics/
+analytics/
+
+# A/B testing files
+ab-test-results/
+
+# Feature flag files
+feature-flags.json
+
+# Localization files (if auto-generated)
+locales/auto-generated/
+
+# Translation files (if auto-generated)
+translations/auto-generated/
+
+# Internationalization files (if auto-generated)
+i18n/auto-generated/
+
+# Theme files (if auto-generated)
+themes/auto-generated/
+
+# Style guide files (if auto-generated)
+style-guide/auto-generated/
+
+# Component library files (if auto-generated)
+component-library/auto-generated/
+
+# Design tokens (if auto-generated)
+design-tokens/auto-generated/
+
+# Icon files (if auto-generated)
+icons/auto-generated/
+
+# Image optimization cache
+.image-cache/
+
+# Font optimization cache
+.font-cache/
+
+# CSS optimization cache
+.css-cache/
+
+# JavaScript optimization cache
+.js-cache/
+
+# HTML optimization cache
+.html-cache/
+
+# SVG optimization cache
+.svg-cache/
+
+# WebP conversion cache
+.webp-cache/
+
+# AVIF conversion cache
+.avif-cache/
+
+# Critical CSS files
+critical.css
+critical-*.css
+
+# Inline CSS files
+inline.css
+inline-*.css
+
+# Above-the-fold CSS files
+atf.css
+atf-*.css
+
+# Service worker registration files
+sw-registration.js
+
+# Web app manifest files (if auto-generated)
+manifest-*.json
+
+# Robots.txt (if auto-generated)
+robots-*.txt
+
+# Sitemap files (if auto-generated)
+sitemap-*.xml
+
+# RSS feed files (if auto-generated)
+feed-*.xml
+
+# Atom feed files (if auto-generated)
+atom-*.xml
+
+# JSON-LD files (if auto-generated)
+jsonld-*.json
+
+# Schema.org files (if auto-generated)
+schema-*.json
+
+# Open Graph files (if auto-generated)
+og-*.html
+
+# Twitter Card files (if auto-generated)
+twitter-*.html
+
+# Facebook files (if auto-generated)
+facebook-*.html
+
+# LinkedIn files (if auto-generated)
+linkedin-*.html
+
+# Pinterest files (if auto-generated)
+pinterest-*.html
+
+# Instagram files (if auto-generated)
+instagram-*.html
+
+# YouTube files (if auto-generated)
+youtube-*.html
+
+# TikTok files (if auto-generated)
+tiktok-*.html
+
+# Snapchat files (if auto-generated)
+snapchat-*.html
+
+# WhatsApp files (if auto-generated)
+whatsapp-*.html
+
+# Telegram files (if auto-generated)
+telegram-*.html
+
+# Discord files (if auto-generated)
+discord-*.html
+
+# Slack files (if auto-generated)
+slack-*.html
+
+# Microsoft Teams files (if auto-generated)
+teams-*.html
+
+# Zoom files (if auto-generated)
+zoom-*.html
+
+# Google Meet files (if auto-generated)
+meet-*.html
+
+# Skype files (if auto-generated)
+skype-*.html
+
+# WebRTC files (if auto-generated)
+webrtc-*.html
+
+# WebAssembly files (if not needed)
+*.wasm
+
+# WebGL files (if not needed)
+*.webgl
+
+# WebXR files (if not needed)
+*.webxr
+
+# WebVR files (if not needed)
+*.webvr
+
+# WebAR files (if not needed)
+*.webar
+
+# Progressive Web App files (if auto-generated)
+pwa-*.json
+
+# Accelerated Mobile Pages files (if auto-generated)
+amp-*.html
+
+# Instant Articles files (if auto-generated)
+ia-*.html
+
+# Apple News files (if auto-generated)
+apple-news-*.json
+
+# Google News files (if auto-generated)
+google-news-*.xml
+
+# Bing News files (if auto-generated)
+bing-news-*.xml
+
+# Yahoo News files (if auto-generated)
+yahoo-news-*.xml
+
+# Reddit files (if auto-generated)
+reddit-*.json
+
+# Hacker News files (if auto-generated)
+hn-*.json
+
+# Product Hunt files (if auto-generated)
+ph-*.json
+
+# GitHub files (if auto-generated)
+github-*.json
+
+# GitLab files (if auto-generated)
+gitlab-*.json
+
+# Bitbucket files (if auto-generated)
+bitbucket-*.json
+
+# SourceForge files (if auto-generated)
+sourceforge-*.json
+
+# CodePen files (if auto-generated)
+codepen-*.json
+
+# JSFiddle files (if auto-generated)
+jsfiddle-*.json
+
+# CodeSandbox files (if auto-generated)
+codesandbox-*.json
+
+# Repl.it files (if auto-generated)
+replit-*.json
+
+# Glitch files (if auto-generated)
+glitch-*.json
+
+# Heroku files (if auto-generated)
+heroku-*.json
+
+# Netlify files (if auto-generated)
+netlify-*.json
+
+# Vercel files (if auto-generated)
+vercel-*.json
+
+# AWS files (if auto-generated)
+aws-*.json
+
+# Google Cloud files (if auto-generated)
+gcp-*.json
+
+# Microsoft Azure files (if auto-generated)
+azure-*.json
+
+# DigitalOcean files (if auto-generated)
+do-*.json
+
+# Linode files (if auto-generated)
+linode-*.json
+
+# Vultr files (if auto-generated)
+vultr-*.json
+
+# Hetzner files (if auto-generated)
+hetzner-*.json
+
+# OVH files (if auto-generated)
+ovh-*.json
+
+# Scaleway files (if auto-generated)
+scaleway-*.json
+
+# Cloudflare files (if auto-generated)
+cloudflare-*.json
+
+# Fastly files (if auto-generated)
+fastly-*.json
+
+# KeyCDN files (if auto-generated)
+keycdn-*.json
+
+# MaxCDN files (if auto-generated)
+maxcdn-*.json
+
+# Amazon CloudFront files (if auto-generated)
+cloudfront-*.json
+
+# Google Cloud CDN files (if auto-generated)
+gcdn-*.json
+
+# Microsoft Azure CDN files (if auto-generated)
+azurecdn-*.json

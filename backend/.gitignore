@@ -1,0 +1,312 @@
+# Backend specific gitignore
+
+# Environment files - CRITICAL: Never commit these
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Logs and audit files
+logs/
+*.log
+audit-*.log
+security-*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+*.lcov
+
+# nyc test coverage
+.nyc_output
+
+# Dependency directories
+node_modules/
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Uploads and temporary files
+uploads/
+temp/
+tmp/
+*.tmp
+
+# Database files (if using SQLite for development)
+*.sqlite
+*.sqlite3
+*.db
+
+# SSL certificates and keys - SECURITY CRITICAL
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+ssl/
+certificates/
+keys/
+
+# Backup files
+*.bak
+*.backup
+*.old
+
+# Session store files (if using file-based sessions)
+sessions/
+
+# Cache files
+.cache/
+
+# Build outputs
+build/
+dist/
+
+# Test outputs
+test-results/
+coverage/
+
+# PM2 ecosystem file (may contain sensitive data)
+ecosystem.config.js
+
+# Docker files with secrets
+docker-compose.override.yml
+
+# Sequelize CLI config (may contain DB credentials)
+config/config.json
+
+# Migration and seeder files with sensitive data
+migrations/
+seeders/
+
+# Backup SQL dumps
+*.sql
+*.dump
+
+# Archive files
+*.zip
+*.tar.gz
+*.rar
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Security scanner outputs
+security-report.json
+audit-report.json
+
+# Performance profiling outputs
+*.prof
+*.heapsnapshot
+
+# Memory dumps
+*.dmp
+
+# Core dumps
+core.*
+
+# Application specific sensitive files
+secrets/
+private/
+confidential/
+
+# JWT signing keys
+jwt-*.key
+
+# Encryption keys
+encryption.key
+master.key
+
+# API keys and tokens
+api-keys.json
+tokens.json
+
+# Configuration files with secrets
+config/secrets.js
+config/production.js
+
+# Third-party service credentials
+credentials/
+service-account.json
+firebase-adminsdk-*.json
+
+# Monitoring and analytics
+newrelic.js
+datadog.yaml
+
+# Load testing results
+load-test-results/
+
+# Security testing results
+security-test-results/
+
+# Penetration testing reports
+pentest-reports/
+
+# Compliance audit files
+compliance-audit/
+
+# Incident response files
+incident-reports/
+
+# Forensic analysis files
+forensics/
+
+# Vulnerability scan results
+vuln-scan-results/
+
+# SAST/DAST scan results
+sast-results/
+dast-results/
+
+# Container security scan results
+container-scan-results/
+
+# Infrastructure as Code secrets
+terraform.tfvars
+terraform.tfstate
+terraform.tfstate.backup
+.terraform/
+
+# Ansible vault files
+vault.yml
+secrets.yml
+
+# Kubernetes secrets
+k8s-secrets/
+*.kubeconfig
+
+# Cloud provider credentials
+.aws/
+.gcp/
+.azure/
+
+# Backup encryption keys
+backup-keys/
+
+# Database connection strings with credentials
+database-urls.txt
+connection-strings.txt
+
+# Email service credentials
+email-config.json
+smtp-credentials.json
+
+# File storage credentials
+storage-credentials.json
+s3-credentials.json
+
+# Monitoring service credentials
+monitoring-credentials.json
+
+# Logging service credentials
+logging-credentials.json
+
+# CDN credentials
+cdn-credentials.json
+
+# Payment gateway credentials
+payment-credentials.json
+
+# Social media API credentials
+social-credentials.json
+
+# Government API credentials
+gov-api-credentials.json
+
+# Internal service credentials
+internal-service-credentials.json
+
+# Development tools with sensitive data
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Package manager files with potential secrets
+.npmrc
+.yarnrc
+
+# Git hooks that might contain secrets
+.git/hooks/
+
+# Temporary files created during development
+.tmp/
+.temp/
+
+# Files created by security tools
+.security/
+.audit/
+
+# Files created by compliance tools
+.compliance/
+
+# Files created by monitoring tools
+.monitoring/
+
+# Files created by backup tools
+.backup/
+
+# Files created by deployment tools
+.deploy/
+
+# Files created by CI/CD tools
+.ci/
+.cd/
+
+# Files created by testing tools
+.test/
+
+# Files created by documentation tools
+.docs/
+
+# Files created by linting tools
+.lint/
+
+# Files created by formatting tools
+.format/
+
+# Files created by type checking tools
+.typecheck/
+
+# Files created by bundling tools
+.bundle/
+
+# Files created by minification tools
+.minify/
+
+# Files created by optimization tools
+.optimize/
+
+# Files created by analysis tools
+.analyze/
+
+# Files created by profiling tools
+.profile/
+
+# Files created by debugging tools
+.debug/
